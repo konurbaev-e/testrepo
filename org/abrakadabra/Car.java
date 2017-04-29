@@ -6,5 +6,6 @@ public class Car {
     public static void main(String[] args) {
         Person president = new Person();
         president.getFirstName();
+        president.showFirstName(4);
     }
 }

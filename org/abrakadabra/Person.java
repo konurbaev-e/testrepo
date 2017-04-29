@@ -18,4 +18,12 @@ public class Person {
             this.firstName = "";
         }
     }
+
+    public void showFirstName(long age){
+        System.out.println(this.firstName);
+    }
+
+    public void alert(){
+        System.out.println("Alert");
+    }
 }
