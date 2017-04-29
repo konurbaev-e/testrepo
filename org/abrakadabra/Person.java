@@ -1,5 +1,7 @@
 package org.abrakadabra;
 
+import java.io.File;
+
 public class Person {
     private String firstName;
 
@@ -20,10 +22,12 @@ public class Person {
     }
 
     public void showFirstName(long age){
+        File file;
         System.out.println(this.firstName);
     }
 
-    public void alert(){
+    private void alert(){
+        String message = "hello";
         System.out.println("Alert");
     }
 }
