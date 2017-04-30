@@ -30,4 +30,8 @@ public class Person {
         String message = "hello";
         System.out.println("Alert");
     }
+
+    public static void print(String input){
+        System.out.println(input);
+    }
 }
