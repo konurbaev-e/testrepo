@@ -2,7 +2,7 @@ package org.abrakadabra;
 
 import java.io.File;
 
-public class Person {
+public class Person implements UsedInterface {
     private String firstName;
 
     public String getFirstName() {
@@ -33,5 +33,10 @@ public class Person {
 
     public static void print(String input){
         System.out.println(input);
+    }
+
+    @Override
+    public void usedMethod(String parameterInUsedMethod) {
+        System.out.println(parameterInUsedMethod);
     }
 }
