@@ -8,6 +8,8 @@ import java.util.Map;
 public class Car {
     private Person person;
 
+    String color;
+
     public static void main(String[] args) {
         Person president = new Person();
         String myFirstName = president.getFirstName();
